@@ -2,7 +2,7 @@ name: Java Build and Docker Push Workflow
 
 on:
   push:
-    branches: [ master ]
+    branches: [ main ]
 
 jobs:
   build-and-push:
